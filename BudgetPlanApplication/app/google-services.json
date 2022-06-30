@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1086195705646",
+    "firebase_url": "https://budgetplan-1ec7b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "budgetplan-1ec7b",
+    "storage_bucket": "budgetplan-1ec7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086195705646:android:8bcf567365fec4a1137cbf",
+        "android_client_info": {
+          "package_name": "com.example.budgetplanapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086195705646-ad2jupjr4snb80rkotik6vf5e8a41gfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1JeF3fSJb2fsHQgmzPOrMp_WeNqdWx9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086195705646-ad2jupjr4snb80rkotik6vf5e8a41gfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

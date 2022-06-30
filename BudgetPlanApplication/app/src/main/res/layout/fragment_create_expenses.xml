@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="parent"
+    tools:context=".ui.createExpenses.CreateExpensesFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/bar_scanner"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Bar Scanner"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/expenses_spinner"
+            android:layout_width="189dp"
+            android:layout_height="46dp"
+            android:autofillHints="none"
+            android:background="@color/textColor"
+            android:popupBackground="@color/textColor"
+            android:textColorHint="@color/blue"
+            android:textColor="@color/blue"
+            android:gravity="center"
+
+            />
+
+        <EditText
+            android:id="@+id/productdescription"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:background="@color/greyback"
+            android:hint="Product Description"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/amount_money"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:background="@color/greyback"
+            android:hint="Amount money"
+            android:inputType="number"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_time"
+            android:background="@color/greyback"
+            android:hint="dd/mm/yy"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/description_text"
+            android:background="@color/greyback"
+            android:hint="Description"
+            android:textColorHint="@color/blue"
+            android:textColor="@color/blue"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/button_done"
+            android:layout_below="@+id/scrollview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:text="Done"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

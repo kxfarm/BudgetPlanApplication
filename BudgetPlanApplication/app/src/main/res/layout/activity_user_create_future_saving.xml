@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateFutureSavingActivity"
+    android:background="@color/background"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Your Future Saving Categories here!"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:paddingBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/SavingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Saving name"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"/>
+
+        <EditText
+            android:id="@+id/AmountofMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Amount of Saving"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"/>
+
+        <TextView
+            android:id="@+id/TargetDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Target Date"
+            android:textColorHint="@color/blue"
+            android:textSize="18dp"
+            android:paddingTop="4dp"
+            android:paddingLeft="4dp"
+            android:background="@color/transparent"
+            android:textColor="@color/blue"/>
+
+        <Button
+            android:id="@+id/btnUsrcreateSaving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:background="@color/transparent"
+            android:textColor="@color/blue"
+            android:layout_gravity="right"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

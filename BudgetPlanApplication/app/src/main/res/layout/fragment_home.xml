@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/gridLyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="1">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Money"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="0"
+                android:gravity="center"
+                android:text="Daily Expenses Limit"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="370dp"
+            android:layout_height="160dp"
+            android:columnCount="3"
+            android:rowCount="1">
+
+
+            <TextView
+                android:id="@+id/current_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:background="@drawable/roundborder"
+                android:gravity="center"
+                android:paddingTop="101dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/spacing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="0"
+                android:background="@drawable/transparent_bg_button"
+                android:padding="10dp" />
+
+
+            <TextView
+                android:id="@+id/daily_expenses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@drawable/roundborder"
+                android:gravity="center"
+                android:paddingTop="101dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/add_new_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_bg_button"
+            android:text="Fill in your income here"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/add_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_bg_button"
+            android:text="Add Income"
+            android:textColor="@color/white" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/daily_expenses_recyclerview"
+            android:layout_width="370dp"
+            android:layout_height="312dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

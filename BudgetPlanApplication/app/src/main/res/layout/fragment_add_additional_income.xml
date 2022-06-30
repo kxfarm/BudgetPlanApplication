@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Please fill in your additional income"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addition_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:digits="1234567890."
+        android:inputType="number"
+        android:hint="Income"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/button_user_additional_income_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="230dp"
+        android:text="Done"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        />
+
+</FrameLayout>
